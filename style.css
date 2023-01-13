@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+body {
+    margin: 0 auto;
+    font-family: 'Poppins', sans-serif;
+    font-style: unset;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.titulo {
+    text-align: center;
+    width: 100%;
+    margin-top: -125px;
+}
+
+.img {
+    z-index: 2;
+    position: relative;
+    margin-top: -15px;
+    width: 100%;
+    text-align: center;
+}
+
+h1 {
+    text-shadow: rgba(172, 172, 172, 0.589) 13px 3px 10px;
+    z-index: 4;
+    font-size: 70px;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    font-stretch: ultra-condensed;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    margin-bottom: 110px;
+    z-index: 3;
+    width: 400px;
+    height: 300px;
+    background-color: #e9e9e94b;
+    padding: 50px 80px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.089);
+}
+
+form {
+
+}
+
+input {
+    width: 90%;
+    height: 15px;
+    padding: 5px;
+    font-size: 20px;
+    border-radius: 5px;
+    margin: 15px 0;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    text-align: center;
+}
+
+.link {
+    margin-top: 20px;
+}
+
+a {
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    color: #73990a;
+}
+
+button {
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    border-radius: 10px;
+    margin-top: 10px;
+    width: 227px;
+    font-size: 15px;
+    background-color: #facb49;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.342);
+}
+
+#botaologin:hover {
+    width: 228px;
+    font-weight: 600;
+    background-color: #f7c439;
+}
+
+footer {
+    z-index: 1;
+    margin-top: -200px;
+    position: fixed;
+    top: 630px;
+    width: 100%;
+}
+
+@media screen and (max-width: 800px) {
+    .card {
+        width: 100%;
+        height: 300px;
+        padding: 20px 40px;
+    }
+
+    .input {
+        width: 50%;
+    }
+
+    .img{
+        display: none;
+    }
+    
+    .footeronda{
+        height: 500px;
+        width: 100%;
+    }
+
+    .titulo h1{
+        font-size: 60px;
+    }
+}
+
+
+@media screen and (max-width: 662px) { 
+    .footeronda{
+        width: 900px;
+    }
+
+    .img{
+        display: none;
+    }
+
+    .titulo h1{
+        font-size: 50px;
+    }
+}
+
+@media screen and (max-width: 654px) { 
+    .footeronda{
+        width: 700px;
+    }
+
+    .img{
+        display: none;
+    }
+
+    .titulo h1{
+        font-size: 50px;
+    }
+}
+
+
+@media screen and (max-width: 654px) { 
+    .footeronda{
+        width: 700px;
+    }
+
+    .img{
+        display: none;
+    }
+
+    .titulo h1{
+        font-size: 40;
+    }
+}
+
+@media screen and (max-width: 324px) { 
+    .footeronda{
+        width: 700px;
+    }
+
+    .img{
+        display: none;
+    }
+
+    .titulo h1{
+        font-size: 39px;
+    }
+}
